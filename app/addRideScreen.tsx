@@ -148,7 +148,7 @@ export  default function StartRide(){
 
             Alert.alert("Success","saved ride");
             console.log("Total ride details",oldRides);
-            router.navigate('/(tabs)');
+            router.navigate("/(tabs)/homeScreen");
             
 
         }
