@@ -26,7 +26,7 @@ export default function TabLayout() {
         tabBarLabelStyle:{fontSize:12,fontWeight:'bold'}
       }}>
       <Tabs.Screen
-        name="index"
+        name="homeScreen"
         options={{
           tabBarActiveTintColor:'green',
           title: 'Home',

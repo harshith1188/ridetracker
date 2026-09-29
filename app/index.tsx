@@ -10,7 +10,7 @@ export default function SplashScreen(){
     const timer=setTimeout(async()=>{
       const login_detail=await AsyncStorage.getItem('login');
       if(login_detail==='true'){
-        router.replace('/(tabs)');
+        router.replace("/(tabs)/homeScreen");
       }
       else{
       router.replace('/entryScreen')

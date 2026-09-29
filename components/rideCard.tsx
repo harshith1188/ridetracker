@@ -54,7 +54,7 @@ export default function RideCard({
         </View>
 
         <View style={styles.profitBox}>
-          <Text style={styles.profitAmount}>₹{profit}</Text>
+          <Text style={styles.profitAmount}>₹{profit.toFixed(2)}</Text>
           <Text style={styles.profitText}>Profit</Text>
         </View>
       </View>
